@@ -54,10 +54,4 @@ pipeline {
             }
         }
     }
-
-    post {
-        always {
-            // Optionally, add cleanup steps here
-        }
-    }
 }
