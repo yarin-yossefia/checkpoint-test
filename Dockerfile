@@ -6,7 +6,7 @@ WORKDIR /app
 COPY . /app
 
 # Install dependencies (Flask, Boto3, etc.)
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r app/requirements.txt
 
 EXPOSE 5000
 
