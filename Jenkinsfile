@@ -40,7 +40,7 @@ pipeline {
             steps {
                 script {
                     // Tag the Docker image with the ECR repository URL
-                    sh "docker tag ${IMAGE_NAME}:${BUILD_NUMBER} ${ECR_REPO_URL}/${ECR_REPO_NAME}:${BUILD_NUMBER}"
+                    sh "docker tag ${IMAGE_NAME} ${ECR_REPO_URL}/${ECR_REPO_NAME}:${BUILD_NUMBER}"
                 }
             }
         }
