@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = 'python-app'   // Name for the Docker image
         ECR_REPO_URL = '597088037401.dkr.ecr.us-east-1.amazonaws.com'  // Replace with your ECR repository URL
-        ECR_REPO_NAME = 'yarin-project'
+        ECR_REPO_NAME = 'yarin-project-flask'
         AWS_REGION = 'us-east-1'  // Replace with your AWS region
     }
 
